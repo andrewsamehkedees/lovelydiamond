@@ -1,4 +1,4 @@
 name = "lovelydiamond"
-
+pages_build_output_dir = "./dist/lovelydiamond/"
 [assets]
 directory = "./dist/lovelydiamond/"

@@ -1,0 +1,4 @@
+name = "lovelydiamond"
+
+[assets]
+directory = "./dist/lovelydiamond/"

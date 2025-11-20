@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/lovely-diamond",
+            "outputPath": "dist/lovelydiamond",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "lovely-diamond:build:production"
+              "buildTarget": "lovelydiamond:build:production"
             },
             "development": {
-              "buildTarget": "lovely-diamond:build:development"
+              "buildTarget": "lovelydiamond:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "lovely-diamond:build"
+            "buildTarget": "lovelydiamond:build"
           }
         },
         "test": {
